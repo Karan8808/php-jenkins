@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
     region = "ap-south-1"
-    profile = "default"   
+    profile = "bhanu"   
 }
 
 resource "aws_vpc" "my_vpc" {
