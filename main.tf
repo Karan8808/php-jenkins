@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
     region = "ap-south-1"
-    profile = "bhanu"   
+    shared_credentials_files = ["/home/ec2-user/.aws/credentials"]   
 }
 
 resource "aws_vpc" "my_vpc" {
